@@ -92,11 +92,11 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 
-MONGO_URI = 'localhost'
+MONGO_URI = 'mongodb://admin:admin123@localhost:27017/'
 MONGO_DATABASE = 'zhihu'
 
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
-REDIS_URL = 'redis://user:pass@hostname:9001'
+REDIS_URL = 'redis://ubuntu:362203@122.152.208.156:6379'
